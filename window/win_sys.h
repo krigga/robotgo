@@ -1,6 +1,6 @@
 // Copyright 2016 The go-vgo Project Developers. See the COPYRIGHT
 // file at the top-level directory of this distribution and at
-// https://github.com/go-vgo/robotgo/blob/master/LICENSE
+// https://github.com/krigga/robotgo/blob/master/LICENSE
 //
 // Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
 // http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
@@ -162,12 +162,20 @@ Bounds get_bounds(uintptr pid, uintptr isHwnd){
         }
 
         RECT rect = { 0 };
-        GetWindowRect(hwnd, &rect);
+        GetClientRect(hwnd, &rect);
 
-        bounds.X = rect.left;
-        bounds.Y = rect.top;
-        bounds.W = rect.right - rect.left;
-        bounds.H = rect.bottom - rect.top;
+		POINT point = { 0 };
+		ClientToScreen(hwnd, &point);
+
+        bounds.X = point.x;
+        bounds.Y = point.y;
+
+		point.x = rect.right;
+		point.y = rect.bottom;
+		ClientToScreen(hwnd, &point);
+
+        bounds.W = point.x - bounds.X;
+        bounds.H = point.y - bounds.Y;
 
         return bounds;
 
