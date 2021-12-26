@@ -4,7 +4,7 @@
 
 ## [Keyboard](#Keyboard)
 
-##### [Keys](https://github.com/go-vgo/robotgo/blob/master/docs/keys.md)
+##### [Keys](https://github.com/krigga/robotgo/blob/master/docs/keys.md)
 <!-- ##### [SetKeyboardDelay](#SetKeyDelay) (Equivalent to SetKeyDelay, Wno-deprecated) -->
 ##### [SetKeyDelay](#SetKeyDelay)
 ##### [KeyTap](#KeyTap)
@@ -101,7 +101,7 @@
 
 #### Arguments:
 
-key - See [keys](https://github.com/go-vgo/robotgo/blob/master/docs/keys.md).  
+key - See [keys](https://github.com/krigga/robotgo/blob/master/docs/keys.md).  
 modifier (optional, string or array) - Accepts alt, command (win), control, and shift.
 
 #### Examples:
@@ -119,7 +119,7 @@ robotgo.KeyTap("i", arr)
 
 #### Arguments:
 
-key - See [keys](https://github.com/go-vgo/robotgo/blob/master/docs/keys.md).  
+key - See [keys](https://github.com/krigga/robotgo/blob/master/docs/keys.md).  
 down - Accepts 'down' or 'up'.  
 modifier (optional, string or array) - Accepts alt, command (mac), control, and shift.
 
@@ -526,7 +526,7 @@ package main
 import (
     "fmt"
 
-    "github.com/go-vgo/robotgo"
+    "github.com/krigga/robotgo"
 )
 
 func main() {

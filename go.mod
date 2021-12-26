@@ -1,4 +1,4 @@
-module github.com/go-vgo/robotgo
+module github.com/krigga/robotgo
 
 go 1.17
 

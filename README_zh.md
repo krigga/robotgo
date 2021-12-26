@@ -1,12 +1,12 @@
 # Robotgo
 
-[![Build Status](https://github.com/go-vgo/robotgo/workflows/Go/badge.svg)](https://github.com/go-vgo/robotgo/commits/master)
+[![Build Status](https://github.com/krigga/robotgo/workflows/Go/badge.svg)](https://github.com/krigga/robotgo/commits/master)
 [![CircleCI Status](https://circleci.com/gh/go-vgo/robotgo.svg?style=shield)](https://circleci.com/gh/go-vgo/robotgo)
 [![Build Status](https://travis-ci.org/go-vgo/robotgo.svg)](https://travis-ci.org/go-vgo/robotgo)
 ![Appveyor](https://ci.appveyor.com/api/projects/status/github/go-vgo/robotgo?branch=master&svg=true)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-vgo/robotgo)](https://goreportcard.com/report/github.com/go-vgo/robotgo)
-[![GoDoc](https://godoc.org/github.com/go-vgo/robotgo?status.svg)](https://godoc.org/github.com/go-vgo/robotgo)
-[![GitHub release](https://img.shields.io/github/release/go-vgo/robotgo.svg)](https://github.com/go-vgo/robotgo/releases/latest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/krigga/robotgo)](https://goreportcard.com/report/github.com/krigga/robotgo)
+[![GoDoc](https://godoc.org/github.com/krigga/robotgo?status.svg)](https://godoc.org/github.com/krigga/robotgo)
+[![GitHub release](https://img.shields.io/github/release/go-vgo/robotgo.svg)](https://github.com/krigga/robotgo/releases/latest)
 [![Join the chat at https://gitter.im/go-vgo/robotgo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-vgo/robotgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 > Golang 跨平台自动化系统，控制键盘、鼠标、位图、图像、读取屏幕，进程、窗口句柄以及全局事件监听
@@ -15,7 +15,7 @@ RobotGo 支持 Mac, Windows, and Linux(X11).
 
 <br>
 
-提 Issues 请到 [Github](https://github.com/go-vgo/robotgo), 便于统一管理和即时更新
+提 Issues 请到 [Github](https://github.com/krigga/robotgo), 便于统一管理和即时更新
 
 ## Contents
 - [Docs](#docs)
@@ -32,10 +32,10 @@ RobotGo 支持 Mac, Windows, and Linux(X11).
 - [License](#license)
 
 ## Docs
-- [GoDoc](https://godoc.org/github.com/go-vgo/robotgo) <br>
+- [GoDoc](https://godoc.org/github.com/krigga/robotgo) <br>
 
-- [中文文档](https://github.com/go-vgo/robotgo/blob/master/docs/doc_zh.md) (弃用)
-- [English Docs](https://github.com/go-vgo/robotgo/blob/master/docs/doc.md) (弃用)
+- [中文文档](https://github.com/krigga/robotgo/blob/master/docs/doc_zh.md) (弃用)
+- [English Docs](https://github.com/krigga/robotgo/blob/master/docs/doc.md) (弃用)
 
 ## Binding:
 
@@ -55,7 +55,7 @@ GCC
 
 #### For Mac OS X:
 
-Xcode Command Line Tools  (And Privacy setting: [#277](https://github.com/go-vgo/robotgo/issues/277) )
+Xcode Command Line Tools  (And Privacy setting: [#277](https://github.com/krigga/robotgo/issues/277) )
 
 ```
 xcode-select --install
@@ -114,35 +114,35 @@ sudo dnf install xsel xclip
 With Go module support (Go 1.11+), just import:
 
 ```go
-import "github.com/go-vgo/robotgo"
+import "github.com/krigga/robotgo"
 ```
 
 Otherwise, to install the robotgo package, run the command:
 
 ```
-go get github.com/go-vgo/robotgo
+go get github.com/krigga/robotgo
 ```
 
-png.h: No such file or directory? Please see [issues/47](https://github.com/go-vgo/robotgo/issues/47).
+png.h: No such file or directory? Please see [issues/47](https://github.com/krigga/robotgo/issues/47).
 
 ## Update:
 ```
-go get -u github.com/go-vgo/robotgo
+go get -u github.com/krigga/robotgo
 ```
 
 注意 go1.10.x C 文件编译缓存问题, [golang #24355](https://github.com/golang/go/issues/24355).
 `go mod vendor` problem, [golang #26366](https://github.com/golang/go/issues/26366).
 
 
-## [Examples:](https://github.com/go-vgo/robotgo/blob/master/examples)
+## [Examples:](https://github.com/krigga/robotgo/blob/master/examples)
 
-#### [鼠标](https://github.com/go-vgo/robotgo/blob/master/examples/mouse/main.go)
+#### [鼠标](https://github.com/krigga/robotgo/blob/master/examples/mouse/main.go)
 
 ```Go
 package main
 
 import (
-	"github.com/go-vgo/robotgo"
+	"github.com/krigga/robotgo"
 )
 
 func main() {
@@ -166,7 +166,7 @@ func main() {
 }
 ```
 
-#### [键盘](https://github.com/go-vgo/robotgo/blob/master/examples/key/main.go)
+#### [键盘](https://github.com/krigga/robotgo/blob/master/examples/key/main.go)
 
 ```Go
 package main
@@ -174,7 +174,7 @@ package main
 import (
   "fmt"
 
-  "github.com/go-vgo/robotgo"
+  "github.com/krigga/robotgo"
 )
 
 func main() {
@@ -208,7 +208,7 @@ func main() {
 }
 ```
 
-#### [屏幕](https://github.com/go-vgo/robotgo/blob/master/examples/screen/main.go)
+#### [屏幕](https://github.com/krigga/robotgo/blob/master/examples/screen/main.go)
 
 ```Go
 package main
@@ -216,7 +216,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/krigga/robotgo"
   "github.com/vcaesar/imgo"
 )
 
@@ -239,7 +239,7 @@ func main() {
 }
 ```
 
-#### [位图](https://github.com/go-vgo/robotgo/blob/master/examples/bitmap/main.go)
+#### [位图](https://github.com/krigga/robotgo/blob/master/examples/bitmap/main.go)
 
 ```Go
 package main
@@ -247,7 +247,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/krigga/robotgo"
 )
 
 func main() {
@@ -284,7 +284,7 @@ import (
   "fmt"
   "math/rand"
 
-  "github.com/go-vgo/robotgo"
+  "github.com/krigga/robotgo"
   "github.com/vcaesar/gcv"
 )
 
@@ -337,7 +337,7 @@ func opencv() {
 }
 ```
 
-#### [事件](https://github.com/go-vgo/robotgo/blob/master/examples/gohook/main.go)
+#### [事件](https://github.com/krigga/robotgo/blob/master/examples/gohook/main.go)
 
 ```Go
 package main
@@ -345,7 +345,7 @@ package main
 import (
   "fmt"
 
-  "github.com/go-vgo/robotgo"
+  "github.com/krigga/robotgo"
   hook "github.com/robotn/gohook"
 )
 
@@ -398,7 +398,7 @@ func event() {
 }
 ```
 
-#### [窗口句柄](https://github.com/go-vgo/robotgo/blob/master/examples/window/main.go)
+#### [窗口句柄](https://github.com/krigga/robotgo/blob/master/examples/window/main.go)
 
 ```Go
 package main
@@ -406,7 +406,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/krigga/robotgo"
 )
 
 func main() {
@@ -472,7 +472,7 @@ GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64
 ## Authors
 * [The author is vz](https://github.com/vcaesar)
 * [Maintainers](https://github.com/orgs/go-vgo/people)
-* [Contributors](https://github.com/go-vgo/robotgo/graphs/contributors)
+* [Contributors](https://github.com/krigga/robotgo/graphs/contributors)
 
 ## Plans
 - 更新 Find an image on screen, read pixels from an image
@@ -481,11 +481,11 @@ GOOS=windows GOARCH=amd64 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc CXX=x86_64-w64
 
 ## Contributors
 
-- See [contributors page](https://github.com/go-vgo/robotgo/graphs/contributors) for full list of contributors.
-- See [Contribution Guidelines](https://github.com/go-vgo/robotgo/blob/master/CONTRIBUTING.md).
+- See [contributors page](https://github.com/krigga/robotgo/graphs/contributors) for full list of contributors.
+- See [Contribution Guidelines](https://github.com/krigga/robotgo/blob/master/CONTRIBUTING.md).
 
 ## License
 
 Robotgo is primarily distributed under the terms of both the MIT license and the Apache License (Version 2.0), with portions covered by various BSD-like licenses.
 
-See [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0), [LICENSE-MIT](https://github.com/go-vgo/robotgo/blob/master/LICENSE).
+See [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0), [LICENSE-MIT](https://github.com/krigga/robotgo/blob/master/LICENSE).

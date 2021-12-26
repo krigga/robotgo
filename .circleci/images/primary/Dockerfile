@@ -22,4 +22,4 @@ RUN apt update && apt install -y --no-install-recommends \
     apt clean               && \
     rm -rf /var/lib/apt/lists/*
 
-RUN go get -u github.com/go-vgo/robotgo
+RUN go get -u github.com/krigga/robotgo

@@ -4,7 +4,7 @@
 
 ## [键盘](#Keyboard)
 
-##### [Keys](https://github.com/go-vgo/robotgo/blob/master/docs/keys.md)
+##### [Keys](https://github.com/krigga/robotgo/blob/master/docs/keys.md)
 <!-- ##### [SetKeyboardDelay](#SetKeyDelay) (相当于 SetKeyDelay, 废弃 API) -->
 ##### [SetKeyDelay](#SetKeyDelay)
 ##### [KeyTap](#KeyTap)
@@ -106,7 +106,7 @@
     键盘值
     修饰值 (可选类型, 字符串或者数组) - 可选值: alt, command (win), control, and shift.
 
-key - See [keys](https://github.com/go-vgo/robotgo/blob/master/docs/keys.md).  
+key - See [keys](https://github.com/krigga/robotgo/blob/master/docs/keys.md).  
 modifier (optional, string or array) - Accepts alt, command (win), control, and shift.
 #### 示例:
 
@@ -124,7 +124,7 @@ robotgo.KeyTap("i", arr)
 
 #### 参数:
 
-key - See [keys](https://github.com/go-vgo/robotgo/blob/master/docs/keys.md).  
+key - See [keys](https://github.com/krigga/robotgo/blob/master/docs/keys.md).  
 down - Accepts 'down' or 'up'.  
 modifier (optional, string or array) - Accepts alt, command (mac), control, and shift.
 ### 返回值:
@@ -541,7 +541,7 @@ package main
 import (
     "fmt"
 
-    "github.com/go-vgo/robotgo"
+    "github.com/krigga/robotgo"
 )
 
 func main() {

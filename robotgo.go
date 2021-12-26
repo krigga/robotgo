@@ -1,6 +1,6 @@
 // Copyright 2016 The go-vgo Project Developers. See the COPYRIGHT
 // file at the top-level directory of this distribution and at
-// https://github.com/go-vgo/robotgo/blob/master/LICENSE
+// https://github.com/krigga/robotgo/blob/master/LICENSE
 //
 // Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
 // http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
@@ -15,14 +15,14 @@ Package robotgo Go native cross-platform system automation.
 Please make sure Golang, GCC is installed correctly before installing RobotGo;
 
 See Requirements:
-	https://github.com/go-vgo/robotgo#requirements
+	https://github.com/krigga/robotgo#requirements
 
 Installation:
 With Go module support (Go 1.11+), just import:
-	import "github.com/go-vgo/robotgo"
+	import "github.com/krigga/robotgo"
 
 Otherwise, to install the robotgo package, run the command:
-	go get -u github.com/go-vgo/robotgo
+	go get -u github.com/krigga/robotgo
 */
 package robotgo
 
@@ -62,7 +62,7 @@ import (
 	// "syscall"
 	"math/rand"
 
-	"github.com/go-vgo/robotgo/clipboard"
+	"github.com/krigga/robotgo/clipboard"
 	"github.com/vcaesar/tt"
 )
 
@@ -788,7 +788,7 @@ func SetMouseDelay(delay int) {
 // KeyTap tap the keyboard code;
 //
 // See keys:
-//	https://github.com/go-vgo/robotgo/blob/master/docs/keys.md
+//	https://github.com/krigga/robotgo/blob/master/docs/keys.md
 //
 // Examples:
 //	robotgo.KeySleep = 100 // 100 millisecond
@@ -889,7 +889,7 @@ func KeyTap(tapKey string, args ...interface{}) string {
 // KeyToggle toggle the keyboard, if there not have args default is "down"
 //
 // See keys:
-//	https://github.com/go-vgo/robotgo/blob/master/docs/keys.md
+//	https://github.com/krigga/robotgo/blob/master/docs/keys.md
 //
 // Examples:
 //	robotgo.KeyToggle("a")

@@ -11,7 +11,7 @@
 - Gcc version:
 - Operating system and bit:
 - Resolution:
-- Can you reproduce the bug at [Examples](https://github.com/go-vgo/robotgo/blob/master/examples/main.go):
+- Can you reproduce the bug at [Examples](https://github.com/krigga/robotgo/blob/master/examples/main.go):
   - [ ] Yes (provide example code)
   - [ ] No
   - [ ] Not relevant
